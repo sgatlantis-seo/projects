@@ -11,4 +11,4 @@ plt.savefig("flights_year_barplot.png")
 sns.heatmap(flights_pivot, cmap="YlGnBu", annot=True, fmt="d")
 plt.savefig("flights_pivot_heatmap.png")
 
-print(flights_year.corr())b  
+print(flights_year.corr())
